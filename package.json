@@ -1,0 +1,24 @@
+{
+  "name": "glowderma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " node --watch --env-file=.env index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrSinghSatyam/GlowDerma.git"
+  },
+  "keywords": [],
+  "author": "Satyam Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrSinghSatyam/GlowDerma/issues"
+  },
+  "homepage": "https://github.com/mrSinghSatyam/GlowDerma#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -32,6 +32,18 @@ app.get("/orders/:orderID", (req, res) => {
         res.status(404).send("Order Not Found");
     }
 });
+
+
+// const limiter = rateLimit({
+//     windowMs: 1000 * 60 * 5, // 5 minutes
+//     max: 5, // Limit each IP to 5 requests per windowMs
+//     message: "Sorry, you have exhausted your plan.", // Custom error message
+// });
+
+// // Apply the rate limiter to all requests
+// app.use(limiter);
+
+
 let products = [
     { id: 11, name: "Retinol Serum", price: 1200, availableQty: 50 },
     { id: 12, name: "Niacinamide Solution", price: 800, availableQty: 30 },
@@ -81,6 +93,7 @@ app.get("/products/:pid", (req, res) => {
         });
     }
 });
+
 let shoppingCart = [];
 app.get("/cart", (req, res) => {
     res.status(200).json(shoppingCart);

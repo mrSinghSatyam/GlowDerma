@@ -1,0 +1,6 @@
+2025-01-24T05:21:45.399Z | GET | /
+2025-01-24T05:21:54.531Z | GET | /random
+2025-01-24T05:22:52.943Z | GET | /static_file_demo.png
+2025-01-24T05:23:10.909Z | GET | /static_file_demo.png
+2025-01-24T05:23:41.564Z | GET | /random
+2025-01-24T05:24:35.688Z | GET | /assets/static_file_demo.png
